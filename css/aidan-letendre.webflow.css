@@ -236,6 +236,7 @@ a {
 }
 
 .navbar3_link {
+  color: #000;
   margin-left: 0;
   margin-right: 0;
   padding: .5rem 1rem;
@@ -556,6 +557,10 @@ a {
   background-color: red;
 }
 
+.brix---btn-primary.youtube.whynow:hover {
+  background-color: #81740d;
+}
+
 .brix---btn-primary.indiegogo:hover {
   background-color: #d23174;
 }
@@ -628,6 +633,7 @@ a {
   grid-template-columns: 1fr;
   grid-auto-rows: 73px;
   grid-auto-columns: 1fr;
+  justify-content: center;
   align-items: center;
   margin-bottom: 25px;
   padding-left: 0;
@@ -1688,7 +1694,7 @@ a {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   flex-flow: column;
-  grid-template-rows: 28px auto;
+  grid-template-rows: 28px 39px;
   grid-template-columns: 1fr;
   grid-auto-columns: 1fr;
   justify-content: flex-start;
@@ -2179,6 +2185,7 @@ a {
 .coming-soon-text {
   color: #fff;
   text-align: center;
+  margin-bottom: 20px;
   font-family: Aptos, Arial, sans-serif;
   font-size: 17px;
   font-weight: 700;
@@ -3095,7 +3102,9 @@ a {
   .brix---color-neutral-600 {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin-bottom: 27px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .brix---btn-primary, .brix---btn-secondary {
@@ -3129,8 +3138,16 @@ a {
   }
 
   .brix---grid-hero-v1 {
-    grid-column-gap: 51px;
-    grid-row-gap: 51px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .brix---grid-hero-v1.soultags {
+    grid-row-gap: 0px;
+    justify-content: center;
+    align-items: center;
   }
 
   .brix---button-row-left {
@@ -3156,7 +3173,8 @@ a {
   }
 
   .logo {
-    height: 84px;
+    height: auto;
+    max-height: none;
   }
 
   .logo.imagecloser {
@@ -3165,6 +3183,20 @@ a {
 
   .logo.imagecloser.fifth {
     margin-bottom: 0;
+  }
+
+  .logo.imagecloser.amelio {
+    width: 16.9em;
+    margin-bottom: 0;
+  }
+
+  .logo.imagecloser.forgotten, .logo.imagecloser.bp {
+    width: 16em;
+    margin-bottom: 0;
+  }
+
+  .logo.uncertainty {
+    width: 18em;
   }
 
   .brix---mg-bottom-8px {
@@ -3240,7 +3272,7 @@ a {
   }
 
   .spark-section h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
   .spark-flex-row {
@@ -3248,11 +3280,19 @@ a {
   }
 
   .spark-flex-row.spark-5-spacing.spark-with-vertical-image {
-    grid-row-gap: 32px;
+    grid-row-gap: 5px;
+  }
+
+  .spark-hero-section-left-side {
+    padding-top: 0;
   }
 
   .spark-checked-item {
     grid-column-gap: 8px;
+  }
+
+  .spark-left-side-vertical-image {
+    margin-bottom: 0;
   }
 
   .brix---mg-bottom-16px {
