@@ -1148,13 +1148,14 @@ a {
 
 .spark-section ul {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: .125rem;
   padding-left: 14px;
 }
 
 .spark-section li {
   margin-bottom: .5rem;
   font-size: 12px;
+  line-height: 17px;
 }
 
 .spark-flex-row {
