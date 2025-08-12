@@ -755,6 +755,10 @@ a {
 }
 
 .section-hero-full-width-right.soultags {
+  background-image: url('../images/Cover_SOUL-TAGS.jpg');
+}
+
+.section-hero-full-width-right.soultags.bp {
   background-image: url('../images/Cover_BELL-PEPPERS.jpg');
 }
 
