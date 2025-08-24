@@ -55,6 +55,14 @@
 }
 
 @font-face {
+  font-family: HelveticaNeue;
+  src: url('../fonts/HelveticaNeueItalic.ttf') format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
   font-family: Gotham;
   src: url('../fonts/Gotham-Bold.otf') format("opentype");
   font-weight: 700;
@@ -66,6 +74,38 @@
   font-family: Gotham;
   src: url('../fonts/Gotham-Black.otf') format("opentype");
   font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url('../fonts/HelveticaNeueThin.otf') format("opentype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url('../fonts/HelveticaNeueBold.otf') format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url('../fonts/HelveticaNeueBlack.otf') format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url('../fonts/HelveticaNeueRoman.otf') format("opentype");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -605,10 +645,10 @@ a {
   border-radius: 5px;
   justify-content: center;
   padding: 12px 38px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: HelveticaNeue, Arial, sans-serif;
   font-size: 12px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 20px;
   text-decoration: none;
   transition: background-color .3s, transform .875s, color .3s;
@@ -827,6 +867,10 @@ a {
   background-image: url('../images/Thumbnail_Coming-Soon.jpg');
   background-position: 50% 59%;
   background-size: cover;
+}
+
+.section-hero-full-width-right.amnesia {
+  background-image: url('../images/Single-Still_AMNESIA_44.jpg');
 }
 
 .brix---hero-full-width-right-hero-v5 {
@@ -1139,9 +1183,9 @@ a {
   margin-bottom: 53px;
   margin-left: 0;
   margin-right: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: HelveticaNeue, Arial, sans-serif;
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 28px;
   text-decoration: none;
 }
@@ -1203,6 +1247,7 @@ a {
   padding-top: 20px;
   padding-left: 0;
   padding-right: 0;
+  font-family: HelveticaNeue, Arial, sans-serif;
 }
 
 .spark-hero-sub-paragraph {
@@ -1664,6 +1709,10 @@ a {
 
 .wrapper-3col.knock {
   grid-template-columns: 1fr 1.25fr 1fr;
+}
+
+.wrapper-3col.amnesia {
+  grid-template-columns: 1.25fr .5fr 1fr;
 }
 
 .films-gallery-wrapper {
@@ -2243,6 +2292,7 @@ a {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  font-family: Didot, Arial, sans-serif;
 }
 
 .about-video {
@@ -3591,7 +3641,7 @@ a {
   grid-area: span 2 / span 1 / span 2 / span 1;
 }
 
-#w-node-_1b994587-7386-8e7f-20ae-7f9bd959849c-e8a848e4, #w-node-_54a0950c-bf7b-6d40-cf76-f47188e926f7-c893217e, #w-node-f05a79f5-3674-144d-dcb6-8fae96b8ad32-c893217e, #w-node-b84fdf7a-236b-25d4-5a75-ad61e606b08c-d1a91144, #w-node-_7d9f831f-31a1-c5a1-ee89-6c6779c5d4ff-d1a91144, #w-node-_9d45f59b-006e-7a6c-2294-8486c7ed8ac8-d1a91144 {
+#w-node-_1b994587-7386-8e7f-20ae-7f9bd959849c-e8a848e4, #w-node-_54a0950c-bf7b-6d40-cf76-f47188e926f7-c893217e, #w-node-b84fdf7a-236b-25d4-5a75-ad61e606b08c-d1a91144, #w-node-_7d9f831f-31a1-c5a1-ee89-6c6779c5d4ff-d1a91144, #w-node-_9d45f59b-006e-7a6c-2294-8486c7ed8ac8-d1a91144 {
   justify-self: end;
 }
 
@@ -3646,6 +3696,13 @@ a {
   font-display: swap;
 }
 @font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/HelveticaNeueItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
   font-family: 'Gotham';
   src: url('../fonts/Gotham-Bold.otf') format('opentype');
   font-weight: 700;
@@ -3656,6 +3713,34 @@ a {
   font-family: 'Gotham';
   src: url('../fonts/Gotham-Black.otf') format('opentype');
   font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/HelveticaNeueThin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/HelveticaNeueBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/HelveticaNeueBlack.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/HelveticaNeueRoman.otf') format('opentype');
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
